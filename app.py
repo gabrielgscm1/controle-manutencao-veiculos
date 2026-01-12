@@ -1,5 +1,5 @@
 """
-Sistema de Controle de Manutenção de Veículos
+Controle de Manutenção de Veículos
 Aplicação Streamlit para gerenciar veículos e suas manutenções.
 """
 import streamlit as st
@@ -13,7 +13,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🚗 Sistema de Controle de Manutenção de Veículos")
+st.title("🚗 Controle de Manutenção de Veículos")
 
 # Menu lateral
 menu = st.sidebar.selectbox(
@@ -301,4 +301,4 @@ elif menu == "Próximas Manutenções":
 
 # Rodapé
 st.sidebar.divider()
-st.sidebar.caption("Sistema de Controle de Manutenção v1.0")
+st.sidebar.caption("Controle de Manutenção v1.0")
